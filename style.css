@@ -1,0 +1,33 @@
+body,html{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(hollow.jpg) center center;
+    background-size: cover;
+}
+.contenedor1{
+    
+    text-align: center;
+    padding: 20px;
+    background-color: #06b8ff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.boton-redireccion{
+    background-color: #FD5E4B;
+    
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.boton-redireccion:hover{
+    background-color: rgb(219, 94, 94);
+}
